@@ -1,17 +1,14 @@
 applications:
-  - name: omar-config-server-client
+  - name: hello-world
     #disk_quota: 1G
     #instances: 1
-    path: build/libs/config-server-client-0.0.1-SNAPSHOT.jar
+    path: build/libs/hello-world-0.0.1-SNAPSHOT.jar
     #buildpack: https://github.com/cloudfoundry/java-buildpack.git
     buildpack: java_buildpack
     #memory: 1G
     routes:
-      #- route: config-server-omar.cfapps.io
-      - route: omar-config-server-client.mybluemix.net
+      - route: omar-hello-world.cfapps.io
     stack: cflinuxfs3
-    services:
-      - config-server-service
     env:
-      SPRING_PROFILES_ACTIVE: qa
+      SPRING_PROFILES_ACTIVE: dev
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.0.2_+ }}'

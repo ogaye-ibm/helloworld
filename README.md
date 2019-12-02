@@ -1,2 +1,2 @@
-# config-server
-SpringBoot CF Config Server POC
+# hello-world
+SpringBoot CF and IBM cloud
