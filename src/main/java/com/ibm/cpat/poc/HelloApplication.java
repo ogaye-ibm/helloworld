@@ -1,13 +1,13 @@
-package com.ibm.gse.poc;
+package com.ibm.cpat.poc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConfigServerClientApplication {
+public class HelloApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigServerClientApplication.class, args);
+        SpringApplication.run(HelloApplication.class, args);
     }
 
 }

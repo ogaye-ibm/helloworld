@@ -1,4 +1,4 @@
-package com.ibm.gse.poc;
+package com.ibm.cpat.poc;
 
 
 import org.springframework.context.annotation.Configuration;
