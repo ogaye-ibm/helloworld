@@ -1,5 +1,4 @@
-HELP.md
-../.gradle
+.gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
@@ -30,3 +29,7 @@ out/
 
 ### VS Code ###
 .vscode/
+
+.DS_Store
+.gradle
+.gradle/
