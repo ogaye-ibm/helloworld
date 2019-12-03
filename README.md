@@ -1,13 +1,13 @@
 # hello-world
 SpringBoot CF and IBM cloud
 
-Build:
+#Build:
 `./gradlew clean build`
 
-Deploy
+#Deploy
 Connect to your CF platform first then run
-IBM Cloud:
+ * IBM Cloud:
 `cf push -f manifest-ibm-cloud.yml`
 
-PWS PCF:
+* PWS PCF:
 `cf push -f manifest-pws.yml`
