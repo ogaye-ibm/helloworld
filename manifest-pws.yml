@@ -9,6 +9,8 @@ applications:
   routes:
   - route: omar-hello-world.cfapps.io
   stack: cflinuxfs3
+  services:
+    - backend-service
   env:
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.0.2_+ }}'
     SPRING_PROFILES_ACTIVE: dev

@@ -1,0 +1,1 @@
+cf cups backend-service -p '{"name": "Joe"}'
