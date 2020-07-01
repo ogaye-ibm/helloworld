@@ -1,7 +1,7 @@
 applications:
   - name: hello-world
-    path: build/libs/hello-world-0.0.1-SNAPSHOT.jar
-    buildpack: java_buildpack
+    path: ../build/libs/hello-world-0.0.1-SNAPSHOT.jar
+    buildpack
     routes:
       - route: omar-hello-world.us-south.cf.appdomain.cloud
     stack: cflinuxfs3

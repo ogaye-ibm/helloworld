@@ -1,1 +1,6 @@
 cf cups backend-service -p '{"name": "Joe"}'
+
+cf create-user-provided-service my-demo-service -p '{"db": "my-dv"}'
+
+cf uups backend-service -p '{"name": "Jane"}'
+
